@@ -55,7 +55,7 @@ ROOT_URLCONF = 'wishlist.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['wishlist/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
